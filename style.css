@@ -444,5 +444,62 @@ body {
 .contact-form button:hover {
   background-color: #009fcc;
 }
+@media (min-width: 1600px) {
+  body {
+    font-size: 18px;
+  }
+
+  .hero {
+    height: 90vh;
+    background-size: cover;
+  }
+
+  .hero-content h2 {
+    font-size: 3rem;
+  }
+
+  .hero-content {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .about-description,
+  .services,
+  .features,
+  .contact-form-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem;
+  }
+
+  .feature-card {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+
+  .team-section {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .team-member {
+    display: inline-block;
+    margin: 2rem;
+    vertical-align: top;
+  }
+
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    gap: 2rem;
+  }
+
+  .footer-block {
+    flex: 1;
+  }
+}
 
 
